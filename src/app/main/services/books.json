@@ -1,0 +1,62 @@
+[
+  {
+    "title": "To Kill a Mockingbird",
+    "year": 1960,
+    "genre": "Fiction",
+    "author": "Harper Lee"
+  },
+  {
+    "title": "1984",
+    "year": 1949,
+    "genre": "Science Fiction",
+    "author": "George Orwell"
+  },
+  {
+    "title": "The Great Gatsby",
+    "year": 1925,
+    "genre": "Fiction",
+    "author": "F. Scott Fitzgerald"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "year": 1951,
+    "genre": "Fiction",
+    "author": "J.D. Salinger"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "year": 1813,
+    "genre": "Romance",
+    "author": "Jane Austen"
+  },
+  {
+    "title": "The Adventures of Huckleberry Finn",
+    "year": 1884,
+    "genre": "Adventure",
+    "author": "Mark Twain"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "year": 1954,
+    "genre": "Fantasy",
+    "author": "J.R.R. Tolkien"
+  },
+  {
+    "title": "The Chronicles of Narnia",
+    "year": 1950,
+    "genre": "Fantasy",
+    "author": "C.S. Lewis"
+  },
+  {
+    "title": "Frankenstein",
+    "year": 1818,
+    "genre": "Horror",
+    "author": "Mary Shelley"
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "year": 1890,
+    "genre": "Fiction",
+    "author": "Oscar Wilde"
+  }
+]

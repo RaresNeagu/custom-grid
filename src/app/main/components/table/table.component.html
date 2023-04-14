@@ -1,0 +1,44 @@
+<div class="table-container">
+  <nz-modal
+    [(nzVisible)]="isVisible"
+    (nzOnCancel)="handleCancel()"
+    (nzOnOk)="handleOk()"
+  >
+    <ng-container *nzModalContent>
+      <app-add-book></app-add-book>
+    </ng-container>
+  </nz-modal>
+
+  <div class="table-operations">
+    <button nz-button (click)="openModal()" nzType="primary">
+      Add New Book
+    </button>
+  </div>
+
+  <nz-table #basicTable [nzData]="BooksList" [nzPageSize]="8">
+    <thead>
+      <tr>
+        <th nzLeft>Title</th>
+        <th>Year</th>
+        <th>Author</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of basicTable.data">
+        <!-- ! pipe -->
+        <td nzLeft>{{ data.title | uppercase }}</td>
+        <td>{{ data.year }}</td>
+        <td>{{ data.author }}</td>
+        <td>
+          <span
+            nz-icon
+            nzType="edit"
+            nzTheme="outline"
+            (click)="editBook(data)"
+          ></span>
+        </td>
+      </tr>
+    </tbody>
+  </nz-table>
+</div>
